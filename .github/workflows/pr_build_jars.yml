@@ -1,7 +1,7 @@
 name: "Test compiling against Java 8, 11 and 16"
 
 on:
-  pull_request:
+  workflow_dispatch:
     branches:
     - development
     paths:
